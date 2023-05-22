@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ /* common css class */
+.color-pr{
+  color: #3982E4;
+}
+.color-se{
+  color: #3A3B3C;
+}
+.color-gry{
+  color: #B8BBBF;
+}
+
+
+body{
+  background-color: #18191A;
+}
+/*--------navbar start */
+.navbar{
+  background-color: #242526;
+}
+/* navbar brand icon */
+.navbar-brand{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar .navbar-left{
+  /* width: 20%; */
+}
+.navbar-brand .fa-facebook{
+font-size: 52px;
+/* margin-right: 10px; */
+}
+.navbar-brand .icon{
+  height:52px ;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3A3B3C;
+  border-radius: 50%;
+}
+.navbar-brand .profile{
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+}
+/* navbar center */
+.navbar-collapse ul{
+height: 60px;
+}
+.navbar-collapse ul li{
+width: 17%;
+height: 100%;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .3s;
+}
+.navbar-collapse ul li:hover{
+  background-color:#3A3B3C;
+}
+/* .navbar-collapse ul li:focus{
+ background-color: #3982E4;
+} */
+.navbar-collapse ul li a:focus{
+ border-bottom: 5px solid #3982E4;
+ width: 100%;
+ height: 100%;
+ border-radius: 5px;
+ display: flex;
+align-items: center;
+justify-content: center;
+transition: .3s;
+}
+.navbar-collapse ul li a i{
+color: #B8BBBF;
+font-size: 25px;
+}
+.navbar-collapse ul li a:focus i{
+  color: #3982E4;
+}
+/*--------navbar end */
+
+
+
+/* body start */
