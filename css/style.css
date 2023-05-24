@@ -5,10 +5,21 @@
   box-sizing: border-box;
 }
 
+.left-section ul li:hover {
+  background-color: #313131;
+  border-radius: 10px;
+}
+.left-section ul li {
+  height: 50px;
+  transition: 0.1s;
+  list-style: none;
+}
 .left-section ul li a {
+  height: 100%;
   display: flex;
+  align-items: center;
   padding-left: 10px;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .left-section ul li a .img {
   width: 20%;
@@ -29,4 +40,9 @@
   text-transform: capitalize;
   letter-spacing: 0.5px;
   font-size: 15px;
+}
+
+.left-section .story {
+  background-color: #313131;
+  margin: 15px 0;
 }/*# sourceMappingURL=style.css.map */

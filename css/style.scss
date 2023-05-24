@@ -7,12 +7,20 @@
 // left section
 .left-section{
   ul{
+    li:hover{
+      background-color: #313131;
+      border-radius: 10px;
+    }
     li{
-      
+      height: 50px;
+      transition: 0.1s;
+      list-style: none;
       a{
+        height: 100%;
         display: flex;
+        align-items: center;
         padding-left:10px ;
-        margin: 15px 0;
+        margin: 10px 0;
         .img{
           width: 20%;
           img{
@@ -35,5 +43,15 @@
         }
       }
     }
+  }
+}
+
+// center section
+.left-section{
+  // story section
+  .story{
+    background-color: #313131;
+    margin: 15px 0;
+    
   }
 }
