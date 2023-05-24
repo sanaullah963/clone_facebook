@@ -1,3 +1,39 @@
-h1{
-  font-size: large;
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// left section
+.left-section{
+  ul{
+    li{
+      
+      a{
+        display: flex;
+        padding-left:10px ;
+        margin: 15px 0;
+        .img{
+          width: 20%;
+          img{
+            width: 85%;
+            border-radius: 50%; 
+          }
+          i{
+            font-size: 30px;
+            color:#4a8de4;;
+          }
+        }
+        h5{
+          color: #fff;
+          width: 80%;
+          margin: auto 0;
+          padding-left:8px;
+          text-transform: capitalize;
+          letter-spacing: 0.5px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
